@@ -11,7 +11,7 @@ const CategoryProduct = () => {
                         id="checkboxDefault" />
                     <label
                         className="text-xl inline-block pl-[0.15rem] hover:cursor-pointer"
-                        for="checkboxDefault">
+                        htmlFor="checkboxDefault">
                         Ditigal Marketing
                     </label>
                 </div>
@@ -23,7 +23,7 @@ const CategoryProduct = () => {
                         id="checkboxDefault" />
                     <label
                         className="text-xl inline-block pl-[0.15rem] hover:cursor-pointer"
-                        for="checkboxDefault">
+                        htmlFor="checkboxDefault">
                         Product Management
                     </label>
                 </div>
@@ -35,7 +35,7 @@ const CategoryProduct = () => {
                         id="checkboxDefault" />
                     <label
                         className="text-xl inline-block pl-[0.15rem] hover:cursor-pointer"
-                        for="checkboxDefault">
+                        htmlFor="checkboxDefault">
                         Data Analysis
                     </label>
                 </div>
@@ -47,7 +47,7 @@ const CategoryProduct = () => {
                         id="checkboxDefault" />
                     <label
                         className="text-xl inline-block pl-[0.15rem] hover:cursor-pointer"
-                        for="checkboxDefault">
+                        htmlFor="checkboxDefault">
                         Front End Development
                     </label>
                 </div>
@@ -59,7 +59,7 @@ const CategoryProduct = () => {
                         id="checkboxDefault" />
                     <label
                         className="text-xl inline-block pl-[0.15rem] hover:cursor-pointer"
-                        for="checkboxDefault">
+                        htmlFor="checkboxDefault">
                         Back End Development
                     </label>
                 </div>
@@ -74,7 +74,7 @@ const CategoryProduct = () => {
                         id="checkboxDefault" />
                     <label
                         className="text-xl inline-block pl-[0.15rem] hover:cursor-pointer"
-                        for="checkboxDefault">
+                        htmlFor="checkboxDefault">
                         Bootcamp
                     </label>
                 </div>
@@ -86,7 +86,7 @@ const CategoryProduct = () => {
                         id="checkboxDefault" />
                     <label
                         className="text-xl inline-block pl-[0.15rem] hover:cursor-pointer"
-                        for="checkboxDefault">
+                        htmlFor="checkboxDefault">
                         Mini Bootcamp
                     </label>
                 </div>
@@ -98,7 +98,7 @@ const CategoryProduct = () => {
                         id="checkboxDefault" />
                     <label
                         className="text-xl inline-block pl-[0.15rem] hover:cursor-pointer"
-                        for="checkboxDefault">
+                        htmlFor="checkboxDefault">
                         Online Course
                     </label>
                 </div>

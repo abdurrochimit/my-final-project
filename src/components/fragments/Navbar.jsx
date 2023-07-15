@@ -65,6 +65,7 @@ const Navbar = () => {
                             <li className="text-white hover:text-indigo-200 text-xl">
                                 <a href="javascript:void(0)">Tentang Edspert</a>
                             </li>
+                          
                         </ul>
 
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
@@ -87,6 +88,7 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
+       
     )
 }
 

@@ -6,6 +6,9 @@ import {
 } from 'react-router-dom';
 import Navbar from './components/fragments/Navbar';
 import HomePage from './pages/home';
+import CheckOutPage from './pages/checkout';
+import ProductDetailPage from './pages/productdetail';
+import PaymentPage from './pages/payment';
 
 function App() {
   return (
@@ -13,9 +16,9 @@ function App() {
       <Navbar />
       <Routes>  
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/" element={<div>Home</div>} /> */}
-        <Route path="/contact" element={<div>Contact</div>} />
-        <Route path="/profil" element={<div>Profil</div>} />
+        <Route path="/detail" element={<ProductDetailPage />} />
+        <Route path="/checkout" element={<CheckOutPage />} />
+        <Route path="/payment" element={<PaymentPage />} />
       </Routes>
     </BrowserRouter>
   );
