@@ -13,7 +13,7 @@ const Price = () => {
                     <p className="font-600 text-xl text-three">Rp. 99.000</p>
                 </div>
                 <div className="text-center mt-4">
-                    <button className="font-bold py-2 px-4 rounded-full text-xl text-white-600 bg-secondary bg-yellow-500 hover:bg-yellow-700 text-white " onClick={() => navigate('/Halaman3')}>
+                    <button className="font-bold py-2 px-4 rounded-full text-xl text-white-600 bg-secondary bg-yellow-500 hover:bg-yellow-700 text-white " onClick={() => navigate('/checkout')}>
                         Daftar kelas
                     </button>
                 </div>

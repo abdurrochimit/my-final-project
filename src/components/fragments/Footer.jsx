@@ -28,7 +28,7 @@ const Footer = () => {
                 <p className="text-abu my-4">Media sosial</p>
               </div>
             </button>
-            <p class="text-base text-abu font-bold text-center mb-12 mt-36">&copy; Edspert, Copyright. Alamat boleh ditaruh disini apabila diinginkan.</p>
+            <p className="text-base text-abu font-bold text-center mb-12 mt-36">&copy; Edspert, Copyright. Alamat boleh ditaruh disini apabila diinginkan.</p>
           </div>
         </div>
       </div>

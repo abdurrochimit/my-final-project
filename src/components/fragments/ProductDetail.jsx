@@ -2,7 +2,9 @@ import Fasilitas from "../elements/Fasilitas";
 import Materi from "../elements/Materi";
 import Price from "../elements/Price";
 
+
 const ProductDetail = () => {
+    
     return (
         <>
             <div>

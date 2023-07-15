@@ -1,9 +1,10 @@
-const HeaderDetail = () => {
+const HeaderDetail = (props) => {
+    const {judul, subjudul} = props
     return (
         <div className="flex pt-6  px-32" style={{ background: "#152A46" }}>
             <div className="flex w-full h-full flex-col space-y-7">
-                <h1 className="text-7xl text-white">Programming <br /> Laravel</h1>
-                <h1 className="text-5xl text-white">Getting Started with Laravel 9</h1>
+                <h1 className="text-7xl text-white">{judul}</h1>
+                <h1 className="text-5xl text-white">{subjudul}</h1>
                 <p className="text-xl text-white text-ellipsis">Tingkatkan Skill dan pengetahuan bersama para mentor <br />terbaik di bidangnya, untuk siapkan karir impian anda.</p>
                 <p className="font-400 text-xl text-white mt-6">Mentor</p>
                 <div className="flex pb-6">
